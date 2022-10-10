@@ -27,17 +27,17 @@ install-module -name ConvertTime
 
 ## DESCRIPTION
 
-Convert from Unix Epoch time to a PowerShell DateTime Object relative to local time based of system time zone.
+Convert from Unix timestamp to a PowerShell DateTime Object relative to local time based of system time zone.
 
 (optional) Return DateTime as Coordinated Universal Time
 
 ## PARAMETER unixDate
 
-The unix epoch time to convert
+The unix timestamp to convert
 
 ## PARAMETER UTC
 
-(optional) The unix epoch time to converted as as Coordinated Universal Time
+(optional) The unix timestamp converted and retured as Coordinated Universal Time
 
 ## INPUTS
 
@@ -73,17 +73,17 @@ Friday, 12 June 2020 10:44:28 PM
 
 ## DESCRIPTION
 
-Convert from Windows Epoch time to a PowerShell DateTime Object relative to local time based of system time zone.
+Convert from Windows timestamp to a PowerShell DateTime Object relative to local time based of system time zone.
 
 (optional) Return DateTime as Coordinated Universal Time
 
 ## PARAMETER winDate
 
-The windows epoch time to convert
+The Windows timestamp to convert
 
 ## PARAMETER UTC
 
-(optional) The unix epoch time to converted as as Coordinated Universal Time
+(optional) The Windows timestamp converted as Coordinated Universal Time
 
 ## INPUTS
 

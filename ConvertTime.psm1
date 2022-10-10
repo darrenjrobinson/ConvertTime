@@ -102,10 +102,10 @@ $exportcmdlets += 'Convert-WindowsTime'
 function Get-UnixTime {
     <#
 .SYNOPSIS
-Convert PowerShell DateTime to Unix epoch time
+Convert PowerShell DateTime to Unix timestamp
 
 .DESCRIPTION
-Convert PowerShell DateTime to Unix epoch time
+Convert PowerShell DateTime to Unix timestamp
 
 .PARAMETER datetime
 (required) A PowerShell DateTime object
@@ -148,10 +148,10 @@ $exportcmdlets += 'Get-UnixTime'
 function Get-WindowsTime {
     <#
 .SYNOPSIS
-Convert PowerShell DateTime to Windows epoch time
+Convert PowerShell DateTime to Windows timestamp
 
 .DESCRIPTION
-Convert PowerShell DateTime to Windows epoch time
+Convert PowerShell DateTime to Windows timestamp
 
 .PARAMETER datetime
 (required) A PowerShell DateTime object
@@ -196,8 +196,8 @@ Export-ModuleMember -Function $exportcmdlets
 # SIG # Begin signature block
 # MIINSwYJKoZIhvcNAQcCoIINPDCCDTgCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
 # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
-# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQU2nSsw9gcEOotvuhdX+qvV5xK
-# aBugggqNMIIFMDCCBBigAwIBAgIQBAkYG1/Vu2Z1U0O1b5VQCDANBgkqhkiG9w0B
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUSzgahMU2I+XC3+8G1fszRJgL
+# VfugggqNMIIFMDCCBBigAwIBAgIQBAkYG1/Vu2Z1U0O1b5VQCDANBgkqhkiG9w0B
 # AQsFADBlMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYD
 # VQQLExB3d3cuZGlnaWNlcnQuY29tMSQwIgYDVQQDExtEaWdpQ2VydCBBc3N1cmVk
 # IElEIFJvb3QgQ0EwHhcNMTMxMDIyMTIwMDAwWhcNMjgxMDIyMTIwMDAwWjByMQsw
@@ -258,11 +258,11 @@ Export-ModuleMember -Function $exportcmdlets
 # b20xMTAvBgNVBAMTKERpZ2lDZXJ0IFNIQTIgQXNzdXJlZCBJRCBDb2RlIFNpZ25p
 # bmcgQ0ECEAzs0XV3s4G5ExftUKPGYK8wCQYFKw4DAhoFAKB4MBgGCisGAQQBgjcC
 # AQwxCjAIoAKAAKECgAAwGQYJKoZIhvcNAQkDMQwGCisGAQQBgjcCAQQwHAYKKwYB
-# BAGCNwIBCzEOMAwGCisGAQQBgjcCARUwIwYJKoZIhvcNAQkEMRYEFIKVJ9a8ywIf
-# njYysXdg7PN554t8MA0GCSqGSIb3DQEBAQUABIIBAGsPtxNtnG3PHqfTmtho5Msw
-# +dFaiUkmQZ6Hu33upwgPp9UPoeZ/ZDDSHnakFEFPWHFAFYzj6IQLBo1OMGeBp93B
-# cueihvuMR6wNNlxygQcwJZIig1BQ1bQnJ6WTu9OeOSUUSfCez5DBHnlUkbGKGo6i
-# lxbV4LaarX4YMOeHlg5chet9d0osSJ+oVhu/1m4waE4m7bCsNVFdx42+ieiSuI8G
-# jn+tq1Tk851IqJF0D9BR994wViSOPmA+JEkipWd3msAcPyJy7ULRGAGFExs/OF9d
-# CJ3vhCoY0ishxPg2DupZFoS7DUk4HX17BL4Tu62FLpFf2fXxMWijRqSTWLZAJqs=
+# BAGCNwIBCzEOMAwGCisGAQQBgjcCARUwIwYJKoZIhvcNAQkEMRYEFH8Vk344Ez/m
+# xL/N8jq08934s+NSMA0GCSqGSIb3DQEBAQUABIIBAEwI0d4UPnUkMlvjrP7FB21Y
+# di8RLLzwNc0+aTPxIcekoyEcIzR6INYDN5vs+rJJZHt8qud83jL+4LhyNKrUhVZH
+# 6ZfLWKCn6PImjvgZV4C8m0SnMM5sKJ/aAaA0ZC7VDTY9G5MFJzNIVnBB/pYQ7TyA
+# lMtiZlLj1PgLZ6J723u+sKnZB6U4XnEKWLiFu5vpWhld2t2maxofdfVGj4lTU8dC
+# VSR68gMMBh7Cw8FqfPMtuhkweSd2Qc1joSBgfNiq2R+q7GTUItXrgqNCXc3mlqP4
+# LY9vGA1exiMpNABnqdQiGWA+hTNv50dm4Mxetr6eAywk1xUC3+hRxWm4AtCbQck=
 # SIG # End signature block
